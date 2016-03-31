@@ -18,8 +18,6 @@ include 'header.php';
 			<h2>Feature 3 yay!</h2>
 		</div>
 	</div>
-	<?php include'database.php';
-	?>
 </div>
 
 <?php
