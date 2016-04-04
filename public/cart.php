@@ -1,7 +1,6 @@
 <?php include'header.php';?>
 <?php include'database.php';?>
 
-
 <!-- below is html -->
 
 
