@@ -11,9 +11,23 @@
 		// try to execute the query
 		$query_result = $conn->query( $query );
 		// returns the query
-		print_r($query_result->fetchAll(PDO::FETCH_ASSOC));
+		$results_array = $query_result->fetchAll(PDO::FETCH_ASSOC);
 
+		if ( $database_config['debug'] ){
+			echo "<pre>";
+			print_r( $results_array );
+			echo"</pre>";
+		}
 
+		foreach ($results_array as $product) {
+			?>
+			<div class="col-md-4 col-xs-12 productlisting">
+				<h2><?php echo $product['naam']; ?></h2>
+				<p>€ <?php echo $product['prijs']; ?></p>
+				<a href="./cart.php?pid=<?php echo $product['id']; ?>">Add to cart</a>
+			</div>
+			<?php 
+		}
 		?>
 
 	</div>
