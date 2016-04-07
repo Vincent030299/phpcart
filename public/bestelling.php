@@ -21,7 +21,7 @@ try {
 	}
 }
 
-session_start()
+session_start();
 $total_order = 0;
 if( isset( $_SESSION['cart_content'] ) ){
 	$cart_array = explode(',', $_SESSION['cart_content'] );
@@ -59,8 +59,8 @@ try {
 // make a new order lines
 //////////////////
 
-if( isset( $_SESSION['cart_content'] )  {
-	$cart_array = explode('.'. $_SESSION['cart_content'];
+if( isset( $_SESSION['cart_content'] )) {
+	$cart_array = explode('.'. $_SESSION['cart_content']);
 
 		foreach( $cart_array as $item){
 			$query = "SELECT * FROM cart_producten WHERE id ='" . $item . "' ";
@@ -85,10 +85,10 @@ if( isset( $_SESSION['cart_content'] )  {
 				if($database_config['debug']){
 					$error = $ex->getMessage();
 					echo $error;
-				}
 			}
 		}	
 	}
+}
 	?>
 
 	<?php include'footer.php';?>
