@@ -13,7 +13,7 @@ if(isset( $_GET['remove'] ) ) {
 	header('location: cart.php');
 }
 
-if ( isset ( $_GET['pid'] ) && !isset ( $_GET['remove'] )  ){
+if ( isset ( $_GET['pid'] ) && !isset ( $_GET['remove'] )  ) {
 	if ( !isset( $_SESSION['cart_content'] ) ){
 		$_SESSION['cart_content'] = $_GET['pid'];
 	}else {

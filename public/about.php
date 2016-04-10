@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<?php
+include 'header.php';
+?>
+<?php
+include 'database.php';
+?>
 
-</body>
-</html>
+<div class="container">
+	<div class="row">
+		<p>This amazing store is brought to you by Evilcorp.
+		</div>
+	</div>
+<?php include 'footer.php';?>	

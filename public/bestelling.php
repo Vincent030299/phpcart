@@ -4,13 +4,13 @@
 <?php
 try {
 	$stmt = $conn->prepare("INSERT INTO cart_klant (
-		naam,email)VALUES(?, ?)");
+		naam, email)VALUES(?, ?)");
 	$stmt->bindParam(1, $naam);
-	$stmt->bindParam(1, $email);
+	$stmt->bindParam(2, $email);
 
 //insert one row
-	$name = $_POST['naam'];
-	$name = $_POST['email'];
+	$naam = $_POST['naam'];
+	$email = $_POST['email'];
 	$stmt->execute();
 	$lastId = $conn->lastInsertId();
 
@@ -46,7 +46,7 @@ try {
 	$totaal_prijs = $total_order;
 	$klant_id = $lastId;
 	$stmt->execute();
-	$lastOrderId = $conn->lastInsertId();
+	$lastorderId = $conn->lastInsertId();
 
 }catch (PDOException $ex){
 	if($database_config['debug']){
@@ -60,35 +60,41 @@ try {
 //////////////////
 
 if( isset( $_SESSION['cart_content'] )) {
-	$cart_array = explode('.'. $_SESSION['cart_content']);
+	$cart_array = explode('.', $_SESSION['cart_content']);
 
-		foreach( $cart_array as $item){
-			$query = "SELECT * FROM cart_producten WHERE id ='" . $item . "' ";
+	foreach($cart_array as $item){
+		$query = "SELECT * FROM cart_producten WHERE id ='" . $item . "' ";
 			//try to execute the query
-			$query_result = $conn->query( $query );
+		$query_result = $conn->query( $query );
 			//returns the result
-			$product = $query_result->fetch(PDO::FETCH_ASSOC);
+		$product = $query_result->fetch(PDO::FETCH_ASSOC);
 
-			try{
+		try{
 
-				$stmt = $conn->prepare("INSERT INTO cart_bestelling_line (product_id, bestelling_id, aantal) VALUES(?,?,?)");
-				$stmt->bindParam(1, $product_id);
-				$stmt->bindParam(2, $bestelling_id);
-				$stmt->bindParam(3, $aantal);
+			$stmt = $conn->prepare("INSERT INTO cart_bestelling_line (product_id, bestelling_id, aantal) VALUES(?,?,?)");
+			$stmt->bindParam(1, $product_id);
+			$stmt->bindParam(2, $bestelling_id);
+			$stmt->bindParam(3, $aantal);
 
-				$product_id = $item;
-				$bestelling_id = $lastOrderId;
-				$aantal = 1;
+			$product_id = $item;
+			$bestelling_id = $lastorderId;
+			$aantal = 1;
 
-				$stmt->execute();
-			}catch ( PDOException $ex){
-				if($database_config['debug']){
-					$error = $ex->getMessage();
-					echo $error;
+			$stmt->execute();
+		}catch ( PDOException $ex){
+			if($database_config['debug']){
+				$error = $ex->getMessage();
+				echo $error;
 			}
 		}	
 	}
 }
-	?>
+?>
+<div class="container">
+	<div class="row">
+		<p>Thank you for your order <?php echo $_POST['naam']; ?></p>
+		<p>Your order has been recorderd as order number <?php echo $lastorderId; ?>.</p>
+	</div>
+</div>
 
-	<?php include'footer.php';?>
+<?php include'footer.php';?>

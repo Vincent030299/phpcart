@@ -7,7 +7,7 @@
 
 		<?php
 
-		$query = "SELECT * FROM `cart_producten`";
+		$query = "SELECT * FROM cart_producten";
 		// try to execute the query
 		$query_result = $conn->query( $query );
 		// returns the query

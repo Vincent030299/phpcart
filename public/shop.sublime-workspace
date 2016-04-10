@@ -1,1 +1,485 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PDO",
+				"PDOException"
+			],
+			[
+				"exce",
+				"execute"
+			],
+			[
+				"las",
+				"lastOrderId"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"cart",
+				"cart_producten"
+			],
+			[
+				"car",
+				"cart_content"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"tot",
+				"total_order"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"ca",
+				"cart_content"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"c",
+				"cart_array"
+			],
+			[
+				"data",
+				"database_config"
+			],
+			[
+				"cart_",
+				"cart_content"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"quer",
+				"query_result"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"da",
+				"database_config"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"exc",
+				"execute"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"num",
+				"number2"
+			],
+			[
+				"nu",
+				"number1"
+			],
+			[
+				"esle",
+				"elseif	elseif …"
+			],
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "shop.php",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cart.php",
+			"settings":
+			{
+				"buffer_size": 2238,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bestelling.php",
+			"settings":
+			{
+				"buffer_size": 2226,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Vincent/phpcart",
+		"/C/Users/Vincent/phpcart/public"
+	],
+	"file_history":
+	[
+		"/C/Users/Vincent/phpcart/public/betelling.php",
+		"/C/Users/Vincent/phpcart/public/config.ini",
+		"/C/Users/Vincent/phpcart/public/shop.sublime-project",
+		"/C/wamp/www/volw/operatoren.php",
+		"/C/wamp/www/testmysql.php",
+		"/C/wamp/www/volw/constanten.php",
+		"/C/wamp/www/volw/empty.php",
+		"/C/wamp/www/volw/bestaat.php",
+		"/C/wamp/www/volw/array.php",
+		"/C/wamp/www/volw/variable.php",
+		"/C/wamp/www/volw/is_functie.php",
+		"/C/Users/Vincent/OEFEN/public/config.php",
+		"/C/Users/Vincent/OEFEN/public/index.php",
+		"/C/Users/Vincent/OEFEN/public/actie.php",
+		"/C/Users/Vincent/phpcart/public/database.php",
+		"/C/Users/Vincent/phpcart/public/shop.php",
+		"/C/Users/Vincent/phpcart/public/cart.php",
+		"/C/Users/Vincent/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Vincent/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Vincent/phpcart/public/css/styles.css",
+		"/C/Users/Vincent/phpcart/public/index.php",
+		"/C/Users/Vincent/phpcart/public/footer.php",
+		"/C/Users/Vincent/phpcart/public/header.php",
+		"/C/Users/Vincent/phpcart/config.ini",
+		"/C/wamp/www/phpcart/header.php",
+		"/C/wamp/www/phpcart/css/styles.css",
+		"/C/wamp/www/phpcart/index.php",
+		"/C/wamp/www/phpcart/cart.php",
+		"/C/wamp/www/phpcart/shop.php",
+		"/C/wamp/www/phpcart/about.php",
+		"/C/wamp/www/phpcart/footer.php",
+		"/C/wamp/www/volw/tags.php",
+		"/C/wamp/www/formulier/form2/index.php",
+		"/C/wamp/www/oefen/index.php",
+		"/C/wamp/www/formulier/form1/index.php",
+		"/C/wamp/www/unit4/les3/voorbeeld10.php",
+		"/C/wamp/www/unit4/les3/voorbeeld2.php",
+		"/C/wamp/www/unit4/les3/voorbeeld45.php",
+		"/C/wamp/www/unit4/voorbeeld3.php",
+		"/C/wamp/www/unit4/voorbeeld2.php",
+		"/C/wamp/www/unit4/159-les2.php",
+		"/C/wamp/www/unit4/158-voorbeeld1.php",
+		"/C/wamp/www/unit4/index.php",
+		"/C/wamp/www/formulier/form2/config.php",
+		"/C/Users/Vincent/form/public/form2/index.php",
+		"/C/wamp/www/formulier/form1/config.php",
+		"/C/wamp/www/formulier/index.php",
+		"/C/wamp/www/formulier/config.php",
+		"/C/wamp/www/workspace/index.php",
+		"/C/wamp/www/workspace/inschrijven.php",
+		"/C/Users/Vincent/OEFEN/Vagrantfile",
+		"/C/Users/Vincent/PHPSQL/public/result.php",
+		"/C/Users/Vincent/PHPSQL/public/css/styles.css",
+		"/C/Users/Vincent/PHPSQL/public/index.php",
+		"/C/Users/Vincent/scotchbxo/public/index.php",
+		"/C/Users/Vincent/PHPopdracht2/public/index.php",
+		"/C/Users/Vincent/PHPopdracht2/index.php",
+		"/C/Users/Vincent/Desktop/Connect with PDO-PHP/php/config.php",
+		"/C/Users/Vincent/PHPSQL/index.php",
+		"/C/Users/Vincent/Desktop/Hoe verbinden we php aan mysql/form.php",
+		"/C/wamp/www/php nodig/index.php",
+		"/C/Users/Vincent/Desktop/index.php",
+		"/C/Users/Vincent/scotchbox/Vagrantfile",
+		"/C/wamp/www/idcollege/index.php",
+		"/C/wamp/www/php/index.php",
+		"/C/Users/Vincent/Desktop/illustrator (2)/3E ala/Website/Tafels Rekenen/index.html",
+		"/C/Users/Vincent/PhpstormProjects/php/index.php",
+		"/C/wamp/www/idcollege/cssc/styles.css",
+		"/C/wamp/www/idcollege/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"totalorder",
+			"marge2",
+			"marge"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "shop.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cart.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2238,
+								2209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bestelling.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "shop.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
